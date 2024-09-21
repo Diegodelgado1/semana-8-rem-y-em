@@ -1,0 +1,96 @@
+*¨{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: fuente1;
+    src: url(font/Letters\ for\ Learners.ttf);
+}
+html{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: fuente1;
+    font-size: 22px;
+}
+body{
+    
+}
+header{
+    background-color: antiquewhite;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.logo img{
+    width: 120px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+}
+nav a{
+    background-color: rgb(228, 166, 166);
+    color: black;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: rgb(205, 58, 55);
+    color: blanchedalmond;
+}
+main{
+    /* background-color: beige; */
+    min-height: 100vh;
+    background-image: url(imagen/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(70deg, blue, pink); */
+    padding: 30px 0;
+
+}
+footer{
+    background-color: aqua;
+}
+.px{
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    margin: 25px auto;
+    background-color: rgba(174, 162, 185, 0.4);
+    border: 2px solid rgb(203, 189, 81)
+}
+.cuadro-rem{
+    width:31.25rem;
+    height: 18.75rem;
+    padding: 1.25rem;
+    margin: 1.5625rem auto;
+    background-color: rgb(212, 147, 147);
+    border: 0.125 solid rgb(203, 189, 81);
+}
+.em{
+    font-size: 16px;
+}
+.cuadro-em{
+    width:31.25em;
+    height: 18.75em;
+    padding: 1.25em;
+    margin: 1.5625em auto;
+    background-color: rgb(212, 147, 147);
+    border: 0.125 solid rgb(203, 101, 81);
+}
+img{
+    width: 40%;
+}
+.columnas{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.columnas .dos{
+    width: 32.5%;
+}
